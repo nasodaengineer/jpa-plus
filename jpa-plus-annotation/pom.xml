@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>com.jpaplus</groupId>
+        <artifactId>jpa-plus-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../jpa-plus-parent/pom.xml</relativePath>
+    </parent>
+    
+    <artifactId>jpa-plus-annotation</artifactId>
+    <name>JPA-Plus Annotation</name>
+    <description>JPA-Plus 注解定义模块</description>
+    
+    <dependencies>
+        <!-- 只需要基本的Java注解支持，无其他依赖 -->
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
